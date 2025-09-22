@@ -1,0 +1,33 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-09-22T12:36:16.233275Z",
+  "program": "/Users/gunal/Developer/ai-data-engineering-assignment/run_all_tasks.py",
+  "codePath": "run_all_tasks.py",
+  "codePathLocal": "run_all_tasks.py",
+  "email": "gunalsoftware@gmail.com",
+  "root": "/Users/gunal/Developer/ai-data-engineering-assignment",
+  "host": "Gunals-MacBook-Pro.local",
+  "executable": "/opt/anaconda3/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "112901443584"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "apple": {
+    "name": "Apple M2",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 8,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "8589934592"
+  },
+  "writerId": "hp5ff4cp91dlpvsf8rxcefd1rceph8p5"
+}

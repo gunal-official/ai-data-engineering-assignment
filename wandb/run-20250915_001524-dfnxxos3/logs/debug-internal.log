@@ -1,0 +1,11 @@
+{"time":"2025-09-15T00:15:25.011087+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-15T00:15:25.485725+05:30","level":"INFO","msg":"stream: created new stream","id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:25.485785+05:30","level":"INFO","msg":"stream: started","id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:25.485798+05:30","level":"INFO","msg":"sender: started","stream_id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:25.485829+05:30","level":"INFO","msg":"handler: started","stream_id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:25.48581+05:30","level":"INFO","msg":"writer: started","stream_id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:34.057286+05:30","level":"INFO","msg":"stream: closing","id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:35.929626+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-15T00:15:36.441531+05:30","level":"INFO","msg":"sender: closed","stream_id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:36.441482+05:30","level":"INFO","msg":"handler: closed","stream_id":"dfnxxos3"}
+{"time":"2025-09-15T00:15:36.441639+05:30","level":"INFO","msg":"stream: closed","id":"dfnxxos3"}

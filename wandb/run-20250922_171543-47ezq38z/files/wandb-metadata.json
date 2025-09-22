@@ -1,0 +1,13 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-09-22T11:45:43.645959Z",
+  "program": "/Users/gunal/Developer/ai-data-engineering-assignment/run_all_tasks.py",
+  "codePath": "run_all_tasks.py",
+  "codePathLocal": "run_all_tasks.py",
+  "email": "gunalsoftware@gmail.com",
+  "root": "/Users/gunal/Developer/ai-data-engineering-assignment",
+  "host": "Gunals-MacBook-Pro.local",
+  "executable": "/opt/anaconda3/bin/python",
+  "writerId": "qve50kvxa9dkneh6g59zwzabp06xv1cl"
+}

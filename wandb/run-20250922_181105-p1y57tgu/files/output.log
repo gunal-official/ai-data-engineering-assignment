@@ -1,0 +1,68 @@
+
+🖼 Processing document.jpg
+✅ tesseract | Confidence: 0.90 | Time: 1.67s
+
+🖼 Processing 527793256+-3258.jpg
+✅ tesseract | Confidence: 0.92 | Time: 1.78s
+
+🖼 Processing 527799804+-9805.jpg
+✅ tesseract | Confidence: 0.86 | Time: 1.42s
+
+🖼 Processing document_v2.jpg
+✅ tesseract | Confidence: 0.90 | Time: 1.63s
+
+🖼 Processing 527795578+-5578.jpg
+✅ tesseract | Confidence: 0.78 | Time: 1.54s
+
+🖼 Processing 0000136188.jpg
+✅ tesseract | Confidence: 0.37 | Time: 0.84s
+✅ Task 1 completed in 11.33 seconds
+
+============================================================
+🚀 TASK 2: LLM Summarization and Database Storage
+============================================================
+🌐 Starting API server on http://0.0.0.0:8000
+⚠️ API server responded with status: 404
+
+============================================================
+🚀 TASK 3: AI Chatbot with Chainlit Frontend
+============================================================
+💬 Starting chatbot on http://localhost:8001
+✅ Chainlit chatbot is starting...
+
+============================================================
+🧪 SYSTEM INTEGRATION TESTING
+============================================================
+1. Testing API health...
+   ❌ API health check failed: 404
+2. Testing document upload...
+   ❌ Document upload failed: 404
+3. Testing search functionality...
+   ❌ Search failed: 404
+
+✔️ System testing completed
+
+============================================================
+📋 ASSIGNMENT COMPLETION SUMMARY
+============================================================
+✅ task1: OCR comparison and NLP feature extraction (11.33s)
+⚡ task3_chatbot: Chainlit conversational interface
+   🌐 Access at: http://localhost:8001
+
+🔗 Access Points:
+   💬 Chatbot Interface: http://localhost:8001
+
+⚡ Quick Test Commands:
+   curl -X GET 'http://localhost:8000/health'
+   curl -X POST 'http://localhost:8000/upload' -F 'file=@sample.jpg'
+
+🛑 To stop all services:
+   Press Ctrl+C in this terminal
+
+⏳ Services are running. Press Ctrl+C to stop all services.
+
+🛑 Received shutdown signal
+
+🛑 Stopping all services...
+   ✅ Stopped task2_api
+   ✅ Stopped task3_chatbot

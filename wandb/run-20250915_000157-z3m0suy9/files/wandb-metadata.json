@@ -1,0 +1,11 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-09-14T18:31:57.858895Z",
+  "program": "-m src.task1_ocr_nlp",
+  "email": "gunalsoftware@gmail.com",
+  "root": "/Users/gunal/Developer/Data-Science-Projects/cls-project/project",
+  "host": "Gunals-MacBook-Pro.local",
+  "executable": "/opt/anaconda3/bin/python",
+  "writerId": "71h8uwpkdghsu7hi9isme4jbo8x43tb8"
+}

@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.21.4
+        e:
+            9nr9txf4tdroyureqmaqf2x4c6t8e5q5:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 8
+                    name: Apple M2
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "3221225472"
+                codePath: run_all_tasks.py
+                codePathLocal: run_all_tasks.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "101670178816"
+                email: gunalsoftware@gmail.com
+                executable: /opt/anaconda3/bin/python
+                host: Gunals-MacBook-Pro.local
+                memory:
+                    total: "8589934592"
+                os: macOS-15.6.1-arm64-arm-64bit-Mach-O
+                program: /Users/gunal/Developer/ai-data-engineering-assignment/run_all_tasks.py
+                python: CPython 3.13.5
+                root: /Users/gunal/Developer/ai-data-engineering-assignment
+                startedAt: "2025-09-22T11:12:18.189022Z"
+                writerId: 9nr9txf4tdroyureqmaqf2x4c6t8e5q5
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 33
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 33
+                - 53
+                - 105
+            "3":
+                - 13
+            "4": 3.13.5
+            "5": 0.21.4
+            "12": 0.21.4
+            "13": darwin-arm64

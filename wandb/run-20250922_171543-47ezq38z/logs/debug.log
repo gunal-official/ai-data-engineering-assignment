@@ -1,0 +1,16 @@
+2025-09-22 17:15:43,651 INFO    MainThread:53914 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-22 17:15:43,651 INFO    MainThread:53914 [wandb_setup.py:_flush():81] Configure stats pid to 53914
+2025-09-22 17:15:43,651 INFO    MainThread:53914 [wandb_setup.py:_flush():81] Loading settings from /Users/gunal/.config/wandb/settings
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_setup.py:_flush():81] Loading settings from /Users/gunal/Developer/ai-data-engineering-assignment/wandb/settings
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /Users/gunal/Developer/ai-data-engineering-assignment/wandb/run-20250922_171543-47ezq38z/logs/debug.log
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /Users/gunal/Developer/ai-data-engineering-assignment/wandb/run-20250922_171543-47ezq38z/logs/debug-internal.log
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_init.py:init():813] calling init triggers
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-22 17:15:43,652 INFO    MainThread:53914 [wandb_init.py:init():854] starting backend
+2025-09-22 17:15:43,877 INFO    MainThread:53914 [wandb_init.py:init():857] sending inform_init request
+2025-09-22 17:15:43,894 INFO    MainThread:53914 [wandb_init.py:init():865] backend started and connected
+2025-09-22 17:15:43,896 INFO    MainThread:53914 [wandb_init.py:init():936] updated telemetry
+2025-09-22 17:15:43,896 INFO    MainThread:53914 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-22 17:15:44,718 INFO    MainThread:53914 [wandb_init.py:init():1011] starting run threads in backend

@@ -212,6 +212,5 @@ def main():
             else:
                 print(f"❌ {res['method']} failed: {res.get('error')}")
 
-
 if __name__ == "__main__":
     main()

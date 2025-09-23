@@ -64,3 +64,9 @@
    Press Ctrl+C in this terminal
 
 ⏳ Services are running. Press Ctrl+C to stop all services.
+
+🛑 Received shutdown signal
+
+🛑 Stopping all services...
+   ✅ Stopped task2_api
+   ✅ Stopped task3_chatbot

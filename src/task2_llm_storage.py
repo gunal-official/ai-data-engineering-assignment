@@ -51,7 +51,6 @@ class Document(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
-
 class Summary(Base):
     __tablename__ = "summaries"
     id = Column(Integer, primary_key=True)
@@ -61,7 +60,6 @@ class Summary(Base):
     processing_time = Column(Float)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-
 # ==========================
 # Pydantic Schemas
 # ==========================
@@ -70,19 +68,16 @@ class DocumentResponse(BaseModel):
     filename: str
     document_type: str
 
-
 class SummaryResponse(BaseModel):
     filename: str
     summary: str
     model: str
     processing_time: float
 
-
 class SearchRequest(BaseModel):
     query: str
     top_k: int = 5
     document_type: Optional[str] = None
-
 
 # ==========================
 # Database Manager
@@ -120,7 +115,6 @@ class DatabaseManager:
     def get_document_by_filename(self, filename: str):
         with self.SessionLocal() as session:
             return session.query(Document).filter(Document.filename == filename).first()
-
 
 # ==========================
 # LLM Summarizer
@@ -186,7 +180,6 @@ class LLMSummarizer:
             logger.error(f"Summarization failed: {e}")
             raise HTTPException(status_code=500, detail=f"Summarization failed: {str(e)}")
 
-
 # ==========================
 # Vector DB
 # ==========================
@@ -212,7 +205,6 @@ class VectorDB:
         return [{"document_id": id_, "content": doc, "metadata": meta}
                 for id_, doc, meta in zip(results['ids'][0], results['documents'][0], results['metadatas'][0])]
 
-
 # ==========================
 # FastAPI App
 # ==========================
@@ -223,11 +215,9 @@ db_manager = DatabaseManager()
 vector_db = VectorDB()
 llm_summarizer = LLMSummarizer()
 
-
 @app.get("/health")
 async def health():
     return {"status": "ok"}
-
 
 @app.post("/upload")
 async def upload(file: UploadFile = File(...)):
@@ -249,7 +239,6 @@ async def upload(file: UploadFile = File(...)):
         logger.error(f"Upload failed: {e}")
         raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
 
-
 @app.post("/summarize")
 async def summarize(filename: str, model: str = "gpt-4"):
     doc = db_manager.get_document_by_filename(filename)
@@ -269,7 +258,6 @@ async def summarize(filename: str, model: str = "gpt-4"):
         logger.error(f"Summarization failed: {e}")
         raise HTTPException(status_code=500, detail=f"Summarization failed: {str(e)}")
 
-
 @app.post("/search")
 async def search(req: SearchRequest):
     try:
@@ -278,7 +266,6 @@ async def search(req: SearchRequest):
     except Exception as e:
         logger.error(f"Search failed: {e}")
         raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
-
 
 # ==========================
 # Main

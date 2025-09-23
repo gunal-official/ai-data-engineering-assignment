@@ -1,0 +1,6 @@
+{"time":"2025-09-22T23:52:53.576547+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-22T23:52:54.041088+05:30","level":"INFO","msg":"stream: created new stream","id":"ipysuuaj"}
+{"time":"2025-09-22T23:52:54.041326+05:30","level":"INFO","msg":"sender: started","stream_id":"ipysuuaj"}
+{"time":"2025-09-22T23:52:54.041344+05:30","level":"INFO","msg":"handler: started","stream_id":"ipysuuaj"}
+{"time":"2025-09-22T23:52:54.041447+05:30","level":"INFO","msg":"stream: started","id":"ipysuuaj"}
+{"time":"2025-09-22T23:52:54.04149+05:30","level":"INFO","msg":"writer: started","stream_id":"ipysuuaj"}

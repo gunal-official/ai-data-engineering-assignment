@@ -1,0 +1,11 @@
+{"time":"2025-09-22T22:43:42.852811+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-22T22:43:43.413927+05:30","level":"INFO","msg":"stream: created new stream","id":"gxdncmii"}
+{"time":"2025-09-22T22:43:43.414215+05:30","level":"INFO","msg":"handler: started","stream_id":"gxdncmii"}
+{"time":"2025-09-22T22:43:43.414227+05:30","level":"INFO","msg":"stream: started","id":"gxdncmii"}
+{"time":"2025-09-22T22:43:43.414393+05:30","level":"INFO","msg":"sender: started","stream_id":"gxdncmii"}
+{"time":"2025-09-22T22:43:43.414416+05:30","level":"INFO","msg":"writer: started","stream_id":"gxdncmii"}
+{"time":"2025-09-22T22:54:54.199734+05:30","level":"INFO","msg":"stream: closing","id":"gxdncmii"}
+{"time":"2025-09-22T22:54:55.217861+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-22T22:54:55.578682+05:30","level":"INFO","msg":"sender: closed","stream_id":"gxdncmii"}
+{"time":"2025-09-22T22:54:55.578927+05:30","level":"INFO","msg":"handler: closed","stream_id":"gxdncmii"}
+{"time":"2025-09-22T22:54:55.579035+05:30","level":"INFO","msg":"stream: closed","id":"gxdncmii"}

@@ -10,9 +10,7 @@ Task 3: AI Chatbot with Chainlit Frontend - FIXED IMPORTS
 import os
 import sys
 import asyncio
-import json
 from typing import List, Dict
-from pathlib import Path
 import logging
 
 # Add parent directory to path for imports
@@ -64,7 +62,6 @@ except ImportError:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
 # -----------------------------
 # Database & Vector Classes
 # -----------------------------
@@ -82,7 +79,6 @@ class DatabaseManager:
     def get_latest_summary(self, document_id: int):
         return None  # Simplified for demo
 
-
 class VectorDatabase:
     """Simplified vector database"""
     def __init__(self):
@@ -97,7 +93,7 @@ class VectorDatabase:
             self.encoder = None
 
     def search_documents(self, query: str, top_k: int = 5):
-        """Return mock search results for demo"""
+        """Mock search results for demo"""
         return [
             {
                 'document_id': '1',
@@ -106,7 +102,6 @@ class VectorDatabase:
                 'similarity': 0.85
             }
         ]
-
 
 # -----------------------------
 # LLM Summarization
@@ -121,6 +116,7 @@ class LLMSummarizer:
         if not self.openai_available:
             return {'error': 'OpenAI not available', 'summary': '', 'model': 'gpt-4'}
         try:
+            # Placeholder summary response
             return {
                 'summary': f"This is a summary of the provided text. The text discusses: {text[:100]}...",
                 'model': 'gpt-4',
@@ -128,7 +124,6 @@ class LLMSummarizer:
             }
         except Exception as e:
             return {'error': str(e), 'summary': '', 'model': 'gpt-4'}
-
 
 # -----------------------------
 # RAG Chatbot
@@ -210,7 +205,6 @@ class RAGChatbot:
         search_terms = [word for word in words if word not in stop_words and len(word) > 2]
         return ' '.join(search_terms) if search_terms else query
 
-
 # Initialize chatbot
 rag_chatbot = RAGChatbot()
 
@@ -245,7 +239,6 @@ async def on_message(message: cl.Message):
 @cl.on_chat_end
 async def on_chat_end():
     await cl.Message(content="👋 Thanks for using the Document Analysis Chatbot!").send()
-
 
 # -----------------------------
 # Main function
